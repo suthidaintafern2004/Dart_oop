@@ -1,19 +1,21 @@
-class Demo {
-      int x=0 ;
+class Demo1 {
+      int? x ;
       void display(){
         print(this.x);
       }
 }
-void main() {
-  var yi = Demo();
-  yi.x = 1 ;
-  var er = Demo();
-  er.x = 2 ;
-  var san = Demo();
-  san.x = 3 ;
+class Demo2 {
+      int? y ;
+      void display(){
+        print(this.y);
+      }
+}
 
+void main() {
+  var yi = Demo1(); // instance
+  var er = Demo2(); // instance
+  yi.x = 5 ;
   yi.display();
+  er.y = 5 ;
   er.display();
-  san.display();
-  
 }

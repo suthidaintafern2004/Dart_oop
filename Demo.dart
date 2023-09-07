@@ -1,15 +1,5 @@
-class Demo1 {
-      int? x ;
-      void display(){
-        print(this.x);
-      }
-}
-class Demo2 {
-      int? y ;
-      void display(){
-        print(this.y);
-      }
-}
+import 'Demo1.dart';
+import 'Demo2.dart';
 
 void main() {
   var yi = Demo1(); // instance
